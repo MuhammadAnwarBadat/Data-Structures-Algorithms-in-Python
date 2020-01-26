@@ -23,13 +23,13 @@ Resizable Arrays in Optimal Space & Time.
    https://github.com/MuhammadAnwarBadat/dsproject.git
    
 2. The test code is as under:
-  # a. Passing element in function 'a.Grow(n)' will add element inside the array.
-  # b. Passing parameter in function 'a.Shrink()' will delete last element from the array.
-  # c. Passing element in function 'a.GrowForward' will decrease 'l' and increase 'n' i.e the value of u will be increased in an array.
-  # d. Passing parameter in function 'a.ShrinkBackward()' will increase 'l' and decrease 'n' i.e delete the value of n in an array.
-  # e. Passing element in function'a.GrowBackward(n)' will increase 'n' i.e add element to the array and decrease 'l'
-  # f. Passing parameter in function 'a.ShrinkForward(n)' will delete an element from the array and will return the deleted    element.
- 
+  a. Passing element in function 'a.Grow(n)' will add element inside the array.
+  b. Passing parameter in function 'a.Shrink()' will delete last element from the array.
+  c. Passing element in function 'a.GrowForward' will decrease 'l' and increase 'n' i.e the value of u will be increased in an array.
+  d. Passing parameter in function 'a.ShrinkBackward()' will increase 'l' and decrease 'n' i.e delete the value of n in an array.
+  e. Passing element in function'a.GrowBackward(n)' will increase 'n' i.e add element to the array and decrease 'l'
+  f. Passing parameter in function 'a.ShrinkForward(n)' will delete an element from the array and will return the deleted    element.
+# Sample Test Code:
 def Test1():
     a = ResizableArray1()
     a.Grow(n)
