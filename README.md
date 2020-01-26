@@ -10,11 +10,11 @@ Resizable Arrays in Optimal Space & Time.
 # b. Shrink:
      This function will remove the element at the nth position.
 # c. GrowForward:
-     This is a coonditional function will add element to the arrayat uth position, where u = u+1 and n = n+1, and the capacity of array becomes equal to or not equals to u then it will call the function 'GrowBackward'.
+     This is a coonditional function will add element to the array at uth position, where u = u+1 and n = n+1, and the capacity of array becomes equal to or not equals to u then it will call the function 'GrowBackward'.
 # d. ShrinkForward:
      This is another conditional funtion which will deleteelement from the array at the uth position, where u = u-1 and n = n-1.
 # e. GrowBackward:
-     This conditional function add element to the arrayat ith position, where i = l-1 and n = n+1, when value of l becomes zero it will automatically call GrowForward fuction.
+     This conditional function add element to the arrayat ith position, where l = l-1 and n = n+1, when value of l becomes zero it will automatically call GrowForward fuction.
 # f. ShrinkBackward:
      The function will delete element from the array present at lth position, where l = l+1 and n = n-1
      
@@ -25,7 +25,7 @@ Resizable Arrays in Optimal Space & Time.
 2. The test code is as under:
   a. Passing element in function 'a.Grow(n)' will add element inside the array.
   b. Passing parameter in function 'a.Shrink()' will delete last element from the array.
-  c. Passing element in function 'a.GrowForward' will decrease 'l' and increase 'n' i.e the value of u will be increased in an array.
+  c. Passing element in function 'a.GrowForward' will decrease 'l' and increase 'u' i.e the value of u will be increased in an array.
   d. Passing parameter in function 'a.ShrinkBackward()' will increase 'l' and decrease 'n' i.e delete the value of n in an array.
   e. Passing element in function'a.GrowBackward(n)' will increase 'n' i.e add element to the array and decrease 'l'
   f. Passing parameter in function 'a.ShrinkForward(n)' will delete an element from the array and will return the deleted    element.
