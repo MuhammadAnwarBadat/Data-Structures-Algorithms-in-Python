@@ -44,7 +44,7 @@ class ResizableArray1(object):
 
     def Shrink(self):
         a = self.A[self.n - 1]
-        self.A[self.n-1] = 0
+        self.A[self.n-1] = None
         self.n = self.n-1
         if self.n * 4 == self.capacity:
             self.resize(self.capacity//2)
