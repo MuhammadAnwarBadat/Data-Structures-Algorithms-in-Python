@@ -20,7 +20,8 @@ Resizable Arrays in Optimal Space & Time.
      
 # Driver Code Instructions
 1. clone the code here:
-
+   https://github.com/MuhammadAnwarBadat/dsproject.git
+   
 2. The test code is as under:
   # a. Passing element in function 'a.Grow(n)' will add element inside the array.
   # b. Passing element in function 'a.Shrink(n)' will delete last element from the array.
