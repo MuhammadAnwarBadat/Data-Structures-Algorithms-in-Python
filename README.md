@@ -1,4 +1,4 @@
-# dsproject
+# Data Structures & Algorithms in Python
 Resizable Arrays in Optimal Space & Time.
 
 # Instructions
